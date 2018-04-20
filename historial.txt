@@ -1,0 +1,93 @@
+    1  df -h
+    2  sudo su -
+    3  ifconfig
+    4  ping 8.8.8.8
+    5  EXIT
+    6  exit
+    7  ping 8.8.8.8
+    8  ifconfig
+    9  ping 8.8.8.8
+   10  ls
+   11  -ifconfig
+   12  ifconfig
+   13  ping 8.8.8.8
+   14  su
+   15  sudo su
+   16  ping 8.8.8.8
+   17  exit
+   18  ifconfig
+   19  exit
+   20  su
+   21  ifconfig
+   22  ping 8.8.8.8
+   23  exit
+   24  pwm
+   25  pwd
+   26  sudo su
+   27  eco "hola"
+   28  eco 'hola'
+   29  eco"hola"
+   30  echo "hola"
+   31  echo "hola mundo consola">saludar.txt
+   32  ls
+   33  cat
+   34  echo "borro lo anterior">saludar.txt
+   35  echo "continuando con lo anterior" >>saludar.txt
+   36  #md5sum
+   37  #md5sum saludo.txt
+   38  md5sum saludo.txt
+   39  md5sum}
+   40  md5sum
+   41  md5sum saludar.txt
+   42  shasum saludar.txt
+   43  sha256sum saludar.txt
+   44  echo sha256sum saludar.txt>hash.txt
+   45  ls
+   46  ls - hash.txt
+   47  sha256sum saludar.txt>hash.txt
+   48  history > historial.txt
+   49  mkdir ejemploGit
+   50  tree
+   51  cd ejemploGit/
+   52  tree
+   53  git clone https://github.com/fmorales86mb/PracticaGithub.git
+   54  tree
+   55  man ls
+   56  ls
+   57  echo "hola github" >saludar.txt
+   58  tree
+   59  ls
+   60  cd PracticaGithub/
+   61  git status
+   62  git add saludar.txt 
+   63  git status
+   64  git commit -m "primer commit local."
+   65  git config --global user.email "fmorales86mb@gmail.com"
+   66  git config --global user.name "fmorales86mb"
+   67  git commit -m "primer commit local."
+   68  git status
+   69  mkdir apuntes
+   70  tree
+   71  echo "enunciado" > apuntes/enunciado.txt
+   72  tree
+   73  echo "solucion" > apuntes/solucion.txt
+   74  tree
+   75  git status
+   76  git add apuntes/
+   77  git status
+   78  git commit -m "Commit con apuntes."
+   79  cd apuntes/
+   80  echo "algo" >> enunciado.txt 
+   81  echo "algo sol piso" > solucion.txt 
+   82  git status
+   83  cd ..
+   84  git add apuntes/
+   85  tree
+   86  git status
+   87  git commit -m "Con cambios en los archivos"
+   88  git log
+   89  git push
+   90  echo history > historial.txt
+   91  histroy
+   92  history
+   93  history > historial.txt 
